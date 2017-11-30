@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/main/java=GBK
+encoding//src/main/java/com/imooc/cglibproxy/CglibProxy.java=UTF-8
+encoding//src/main/java/com/imooc/cglibproxy/Client.java=UTF-8
+encoding//src/main/java/com/imooc/cglibproxy/Train.java=UTF-8
+encoding//src/main/java/com/imooc/jdkproxy/Test.java=UTF-8
+encoding//src/main/java/com/imooc/jdkproxy/TimeHandler.java=UTF-8
+encoding//src/main/java/com/imooc/proxy/Car.java=UTF-8
+encoding//src/main/java/com/imooc/proxy/CarTimeProxy.java=UTF-8
+encoding//src/main/java/com/imooc/proxy/Moveable.java=UTF-8
+encoding//src/main/java/com/imooc/simulationjdkproxy/Client.java=UTF-8
+encoding//src/main/java/com/imooc/simulationjdkproxy/InvocationHandler.java=UTF-8
+encoding//src/main/java/com/imooc/simulationjdkproxy/Proxy.java=UTF-8
+encoding//src/main/java/com/imooc/simulationjdkproxy/TimeHandler.java=UTF-8
+encoding/<project>=GBK
