@@ -1,7 +1,6 @@
 package com.imooc.cglibproxy;
 
 import java.lang.reflect.Method;
-import java.util.Random;
 
 import com.onemt.agent.annotation.Agent;
 
@@ -13,7 +12,7 @@ public class CglibProxy implements MethodInterceptor {
 
 	private Enhancer enhancer = new Enhancer();
 	
-	public Object getProxy(Class clazz){
+	public Object getProxy(Class<?> clazz){
 		//设置创建子类的类
 		enhancer.setSuperclass(clazz);
 		enhancer.setCallback(this);
