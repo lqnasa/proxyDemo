@@ -1,15 +1,17 @@
 package com.imooc.cglibproxy;
 
 
-import com.onemt.agent.annotation.Agent;
+import com.onemt.agent.annotation.TraceClass;
+import com.onemt.agent.annotation.TraceMethod;
 
-@Agent("Client")
+@TraceClass(classDescription="Client")
 public class Client {
 	
 
 	/**
 	 * @param args
 	 */
+	@TraceMethod
 	public static void main(String[] args) {
 		
 		for (int i = 0; i < 3; i++) {

@@ -2,16 +2,18 @@ package com.imooc.cglibproxy;
 
 import java.lang.reflect.Method;
 
-import com.onemt.agent.annotation.Agent;
+import com.onemt.agent.annotation.TraceClass;
+import com.onemt.agent.annotation.TraceMethod;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
-@Agent("CglibProxy")
+@TraceClass
 public class CglibProxy implements MethodInterceptor {
 
 	private Enhancer enhancer = new Enhancer();
 	
+	@TraceMethod
 	public Object getProxy(Class<?> clazz){
 		//设置创建子类的类
 		enhancer.setSuperclass(clazz);
